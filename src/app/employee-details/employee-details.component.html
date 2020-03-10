@@ -1,0 +1,23 @@
+<h2>Room Details</h2> 
+
+<hr/>
+<div *ngIf="employee">
+  <div>
+    <label><b>Matricule: </b></label> {{employee.matricule}}
+  </div>
+  <div>
+    <label><b>Capacity: </b></label> {{employee.firstName}}
+  </div>
+  <div>
+    <label><b>Floor: </b></label> {{employee.lastName}}
+  </div>
+  <div>
+    <label><b>Section: </b></label> {{employee.emailId}}
+  </div>  
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Back to Room List</button><br>
+
+
